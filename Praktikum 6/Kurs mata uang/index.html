@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kurs Mata Uang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>KURS MATA UANG</h1>
+    <hr>
+    <form action="">
+    <table border="1px">
+        <tr>
+            <td>Mata Uang Asing</td>
+            <td>Jumlah</td>
+            <td>Convert</td>
+            <td>Rupiah</td>
+        </tr>
+        <tr>
+            <td>
+                <select name="" id="world">
+                    <option value="">Pilih Mata Uang</option>
+                    <option value="usd">USD</option>
+                    <option value="yuan">YUAN</option>
+                    <option value="eu">EURO</option>
+                    <option value="won">WON</option>
+                </select>
+            </td>
+            <td>
+                <input type="text" id="jumlah"> 
+            </td>
+            <td><button type="button" onclick="Kurs()">Convert</button></td>
+            <td>
+                <input type="text" disabled id="rupiah">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+<script src="script.js"></script>
+</html>
