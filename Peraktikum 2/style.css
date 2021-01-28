@@ -1,0 +1,122 @@
+        body{
+            background-image: url(university.jpg);
+            background-size: cover;
+        }
+        .wrapper{
+                width:  70%;
+                border: 1px solid black;
+                padding: 10px;
+                margin-left: 15%;
+                background-color: black;
+                color: white;
+            }
+        .judul{
+            color:#2bb2bb;
+        }
+        .date{
+            float:right;
+        }
+        .today{
+            width:100%;
+            box-sizing:border-box;  
+            display:    inline-block;
+            border-radius:  3px;
+            padding: 12px 20px;
+            margin: 8px 0;
+        }
+        .input{
+            margin-left: 30px;
+        }
+        .top{
+            padding-left: 20px;
+        }
+        .birth{
+            margin-right: 30px;
+        }
+        .name{
+            margin-right: 78px;
+        }
+        .nama{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        .tgl{
+            width:80%;
+
+        }
+        .Add{
+            margin-right: 78px;
+        }
+        .alamat{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        .city{
+             margin-right: 110px;
+        }
+        .kota{
+            width: 33%;
+        }
+        .prov{
+            width: 33%;
+        }
+        .province{
+            margin-left:20px;
+        }
+        .zip{
+            margin-right: 73px;
+        }
+        .code{
+            width: 33%;
+        }
+        .coun{
+            margin-left: 20px;
+            margin-right:   7px;
+        }
+        .negara{
+            width:33%;
+        }
+        .phone{
+            margin-right: 92px;
+        }
+        .hp{
+             width:33%;
+        }
+        .email{
+            margin-right: 25px;
+            margin-left: 20px;
+        }
+        .mail{
+            width: 33%;
+        }
+        .ship{
+            margin-right: 10px;
+        }
+        .course{
+            margin-right: 40px;
+        }
+        .jurusan{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        input[type=radio]{
+            margin-left: 30px;
+        }
+        .pay{
+            margin-right: 20px;
+        }
+        .kom{
+            margin-right: 66px;
+        }
+        .comment{
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        .student{
+            border:2px solid black;
+            width: 45%;
+        }
+        .validate{
+            border:2px solid black;
+            width: 45%;
+        }    }
